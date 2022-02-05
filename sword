@@ -1,0 +1,2 @@
+game.workspace[game.Players.LocalPlayer.Name].ToolEvent:Destroy()
+game:GetService("ReplicatedStorage").ToolEvent:FireServer("steppedOn", game:GetService("ReplicatedStorage").Sword)
